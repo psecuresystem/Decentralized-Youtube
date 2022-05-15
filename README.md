@@ -4,12 +4,12 @@ This is a project based on Youtube but decentralized.
 People are able to upload videos, view videos and with a little tweaking, like videos. 
 You can view all your uploaded videos
 
-# To startup a local blockchain 
+## To startup a local blockchain 
 ```console
 foo@bar:~$ npx hardhat node
 ```
 
-# To Run:
+## To Run:
 ```console
 foo@bar:~$ git clone ${this repo}
 foo@bar:~$ npx hardhat deploy --localhost
