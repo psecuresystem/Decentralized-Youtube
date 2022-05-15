@@ -1,7 +1,7 @@
 # Decentralized-Youtube
 
 This is a project based on Youtube but decentralized. 
-People are able to upload videos, view videos and with a little tweaking, like videos. 
+People are able to upload videos, view videos and with a little tweaking, like videos and suscribe to channels. 
 You can view all your uploaded videos
 
 ## To startup a local blockchain 
