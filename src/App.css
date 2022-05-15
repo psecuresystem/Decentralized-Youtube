@@ -1,0 +1,117 @@
+.navbar{
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem;
+  justify-content: space-between;
+  box-shadow: 1px 1px 15px 5px #444;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 99;
+  background-color: white;
+}
+.logo{
+  flex: 7;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-items{
+  display: flex;
+  flex: 4;
+  justify-content: space-evenly;
+}
+.navitem.active a{
+  color: green;
+}
+.navitem{
+  cursor: pointer;
+}
+
+/* Video */
+.body{
+  margin-top: calc(10vh + 4rem + .2em);
+}
+.videos{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  place-items: center;
+}
+.video{
+  width: max(25vw,100px);
+  height: max(30vh, 100px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: .5rem;
+}
+.video img{
+  width: 100%;
+  height: 80%;
+  margin: 0;
+  padding: 0;
+}
+.video h4{
+  margin: 0;
+  padding: 0;
+}
+.video p{
+  margin: 0;
+  padding: 0;
+}
+
+/* Home header */
+.header{
+  text-align: center;
+}
+
+/* Upload Video */
+form input[type="file"]{
+  display: none;
+}
+form .file{
+  width: 100%;
+  background-color: blue;
+  padding: .5em;
+  margin: .5em;
+  color: #fff
+}
+form input{
+  padding: .5em;
+  margin: .5em;
+  width: 100%;
+}
+form button{
+  padding: .5em;
+  margin: .5em;
+  width: 100%;
+  background-color: blue;
+  border: none;
+  color: #fff
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Single Video */
+.single-video video{
+  width: calc(100vw - 20vw - 10vw);
+  height: 50vh;
+}
+.single-video h2,.single-video p{
+  margin: 0;
+}
+.single-video .content{
+  padding-left: 1rem;
+}
